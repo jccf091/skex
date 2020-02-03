@@ -25,3 +25,5 @@ skex-*.tar
 c_src/*.o
 .eunit
 priv/*.so
+
+.elixir_ls
