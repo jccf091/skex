@@ -7,5 +7,6 @@ CFLAGS += -fPIC
 CFLAGS += -Ic_src
 
 all:
+	mkdir priv
 	$(CC) $(CFLAGS) -shared $(LDFLAGS) $(SRC) -o priv/skex_nifs.so
 
